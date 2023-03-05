@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Parsing a complex JSON&#10;&#10;Passed all cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Add book test added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_ExtractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/BasicApiTest_ExtractResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_PUT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/BasicApiTest_PUT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdateAndValidatePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/BasicApiTest_UpdateAndValidatePlace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ComplexJsonParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/ComplexJsonParseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ResuableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ResuableItems/ResuableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677995526869</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add book test added">
+      <created>1677997808392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677997808392</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +207,7 @@
     <MESSAGE value="Added testNG assertion to validate the address value" />
     <MESSAGE value="Added a new method to separate out the JsonPath object creation" />
     <MESSAGE value="Parsing a complex JSON&#10;&#10;Passed all cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parsing a complex JSON&#10;&#10;Passed all cases" />
+    <MESSAGE value="Add book test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add book test added" />
   </component>
 </project>
