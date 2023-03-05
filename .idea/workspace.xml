@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Dynamic payload feature added using TestNG dataProvider">
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Delete the newly created book entry">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasicTests/BasicApiTest_ReadJsonFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/files/newBook.Json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +51,25 @@
       <recent name="X:\Career\Learning\API\Rest-Assured\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BasicTests" />
       <recent name="files" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicJson.deleteBook">
+  <component name="RunManager" selected="Application.BasicApiTest_ReadJsonFromFile">
+    <configuration name="BasicApiTest_ReadJsonFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicTests.BasicApiTest_ReadJsonFromFile" />
+      <module name="Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicJson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest-Assured" />
       <extension name="coverage">
@@ -111,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicApiTest_ReadJsonFromFile" />
         <item itemvalue="TestNG.DynamicJson.deleteBook" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="TestNG.DynamicJson" />
@@ -224,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677999534386</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Delete the newly created book entry">
+      <created>1678001414237</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678001414237</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +275,7 @@
     <MESSAGE value="Parsing a complex JSON&#10;&#10;Passed all cases" />
     <MESSAGE value="Add book test added" />
     <MESSAGE value="Dynamic payload feature added using TestNG dataProvider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamic payload feature added using TestNG dataProvider" />
+    <MESSAGE value="Delete the newly created book entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete the newly created book entry" />
   </component>
 </project>
