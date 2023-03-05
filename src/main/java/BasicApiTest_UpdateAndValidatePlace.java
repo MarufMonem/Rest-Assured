@@ -27,7 +27,7 @@ public class BasicApiTest_UpdateAndValidatePlace {
         System.out.println(response);
 
 //        For parsing JSON
-        JsonPath js = new JsonPath(response);
+        JsonPath js = ResuableMethods.rawToJson(response);
         String place_id = js.getString("place_id");
         System.out.println("place ID: " + place_id);
 
@@ -53,11 +53,10 @@ public class BasicApiTest_UpdateAndValidatePlace {
         .then()
                 .log().all().assertThat().statusCode(200).body("address", equalTo("Maruf Monem")).extract().response().asString();
 
-        JsonPath jsGET = new JsonPath(getResponse);
+        JsonPath jsGET = ResuableMethods.rawToJson(getResponse);
         String addressGET = jsGET.get("address");
         Assert.assertEquals(addressGET, addressValue);
-
-
+        
     }
 
 }
