@@ -1,11 +1,12 @@
 import files.payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import org.testng.Assert;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class BasicApiTest_UpdatePlace {
+public class BasicApiTest_UpdateAndValidatePlace {
     public static void main(String[] args) {
 
 //    1. **Given**: it takes all the input details needed for an API
@@ -43,14 +44,18 @@ public class BasicApiTest_UpdatePlace {
                 .log().all().assertThat().statusCode(200).body("msg", equalTo("Address successfully updated"));
 
         //    Validate the value
-        given()
+        String getResponse = given()
                 .log().all()
                 .queryParam("key", "qaclick123")
                 .queryParam("place_id", place_id)
         .when()
                 .get("/maps/api/place/get/json")
         .then()
-                .log().all().assertThat().statusCode(200).body("address", equalTo("Maruf Monem"));
+                .log().all().assertThat().statusCode(200).body("address", equalTo("Maruf Monem")).extract().response().asString();
+
+        JsonPath jsGET = new JsonPath(getResponse);
+        String addressGET = jsGET.get("address");
+        Assert.assertEquals(addressGET, addressValue);
 
 
     }

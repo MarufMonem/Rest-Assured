@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Updated the address value of the newly created place">
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Validate the updated address">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdatePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdatePlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdatePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdateAndValidatePlace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677989634514</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Validate the updated address">
+      <created>1677990664914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677990664914</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +148,7 @@
     <MESSAGE value="Separated out the payload in its own static class" />
     <MESSAGE value="Extracted the place ID" />
     <MESSAGE value="Updated the address value of the newly created place" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the address value of the newly created place" />
+    <MESSAGE value="Validate the updated address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validate the updated address" />
   </component>
 </project>
