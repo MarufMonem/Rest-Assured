@@ -1,4 +1,4 @@
-import files.payload;
+import files.BasicApiTestPayload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
@@ -19,7 +19,7 @@ public class BasicApiTest_UpdateAndValidatePlace {
                 .log().all()
                 .queryParam("key", "qaclick123")
                 .header("Content-Type", "application/json")
-                .body(payload.addPlace())
+                .body(BasicApiTestPayload.addPlace())
                 .when()
                 .post("/maps/api/place/add/json")
                 .then().assertThat().statusCode(200).body("scope",  equalTo("APP")).header("server", "Apache/2.4.41 (Ubuntu)").extract().response().asString();
@@ -37,7 +37,7 @@ public class BasicApiTest_UpdateAndValidatePlace {
                 .log().all()
                 .queryParam("key", "qaclick123")
                 .header("Content-Type", "application/json")
-                .body(payload.updatePlace(place_id, addressValue))
+                .body(BasicApiTestPayload.updatePlace(place_id, addressValue))
         .when()
                 .put("/maps/api/place/update/json")
         .then()
@@ -56,7 +56,7 @@ public class BasicApiTest_UpdateAndValidatePlace {
         JsonPath jsGET = ResuableMethods.rawToJson(getResponse);
         String addressGET = jsGET.get("address");
         Assert.assertEquals(addressGET, addressValue);
-        
+
     }
 
 }

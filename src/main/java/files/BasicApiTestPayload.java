@@ -1,6 +1,6 @@
 package files;
 
-public class payload {
+public class BasicApiTestPayload {
     public static String addPlace(){
         return "{\n" +
                 "    \"location\": {\n" +
