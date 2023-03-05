@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Add book test added">
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Dynamic payload feature added using TestNG dataProvider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" afterDir="false" />
@@ -55,7 +55,24 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.DynamicJson.deleteBook">
+    <configuration name="DynamicJson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DynamicJson" />
+      <option name="MAIN_CLASS_NAME" value="DynamicJson.DynamicJson" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest-Assured" />
       <extension name="coverage">
@@ -74,9 +91,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicJson.deleteBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DynamicJson" />
+      <option name="MAIN_CLASS_NAME" value="DynamicJson.DynamicJson" />
+      <option name="METHOD_NAME" value="deleteBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicJson.deleteBook" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
+        <item itemvalue="TestNG.DynamicJson" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677997808392</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Dynamic payload feature added using TestNG dataProvider">
+      <created>1677999534386</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677999534386</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +252,7 @@
     <MESSAGE value="Added a new method to separate out the JsonPath object creation" />
     <MESSAGE value="Parsing a complex JSON&#10;&#10;Passed all cases" />
     <MESSAGE value="Add book test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add book test added" />
+    <MESSAGE value="Dynamic payload feature added using TestNG dataProvider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic payload feature added using TestNG dataProvider" />
   </component>
 </project>

@@ -12,4 +12,13 @@ public class DynamicJsonPayload {
                 "}";
         return bookDetails;
     }
+
+    public static String deleteBook(String isbn, String aisle){
+        String id = isbn+aisle;
+        String bookDetails = "{\n" +
+                "  \"ID\" : \""+id+"\"\n" +
+                "}\n" +
+                "\n";
+        return bookDetails;
+    }
 }

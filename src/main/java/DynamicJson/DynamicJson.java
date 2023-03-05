@@ -31,6 +31,25 @@ public class DynamicJson {
 
     }
 
+    @Test(dataProvider = "booksData")
+    public void deleteBook(String isbn, String aisle){
+        RestAssured.baseURI= "http://216.10.245.166";
+
+        String response = given()
+                .log().all()
+                .header("Content-Type", "application/json")
+                .body(DynamicJsonPayload.deleteBook(isbn, aisle))
+        .when()
+                .delete("/Library/DeleteBook.php")
+        .then()
+                .assertThat().statusCode(200).extract().response().asString();
+
+        System.out.println("Deleted book with ID: " + isbn+aisle);
+
+    }
+
+
+
     @DataProvider(name="booksData")
     public Object[][] getData(){
         return new Object[][]{
