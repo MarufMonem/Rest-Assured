@@ -31,14 +31,28 @@ public class BasicApiTest_UpdatePlace {
         System.out.println("place ID: " + place_id);
 
 //        Update place name---------------
+        String addressValue = "Maruf Monem";
         given()
                 .log().all()
                 .queryParam("key", "qaclick123")
                 .header("Content-Type", "application/json")
-                .body(payload.updatePlace(place_id))
+                .body(payload.updatePlace(place_id, addressValue))
         .when()
                 .put("/maps/api/place/update/json")
         .then()
                 .log().all().assertThat().statusCode(200).body("msg", equalTo("Address successfully updated"));
+
+        //    Validate the value
+        given()
+                .log().all()
+                .queryParam("key", "qaclick123")
+                .queryParam("place_id", place_id)
+        .when()
+                .get("/maps/api/place/get/json")
+        .then()
+                .log().all().assertThat().statusCode(200).body("address", equalTo("Maruf Monem"));
+
+
     }
+
 }

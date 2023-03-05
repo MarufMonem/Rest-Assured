@@ -19,10 +19,10 @@ public class payload {
                 "    \"language\": \"French-IN\"\n" +
                 "}";
     }
-    public static String updatePlace(String place_id){
+    public static String updatePlace(String place_id, String address){
         return "{\n" +
                 "    \"place_id\": \"" +place_id+ "\",\n" +
-                "    \"address\": \"Maruf Monem\",\n" +
+                "    \"address\": \""+address+"\",\n" +
                 "    \"key\": \"qaclick123\"\n" +
                 "}";
     }
