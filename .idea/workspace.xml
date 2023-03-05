@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Added TestNG and hamcrest dependencies">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basics.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Send and validate a PUT request: Google Maps Add Location API">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_PUT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicApiTest_PUT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -71,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677848189866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Send and validate a PUT request: Google Maps Add Location API">
+      <created>1677984702361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677984702361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +99,7 @@
     <MESSAGE value="Project Setup" />
     <MESSAGE value="Added rest assured dependencies" />
     <MESSAGE value="Added TestNG and hamcrest dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TestNG and hamcrest dependencies" />
+    <MESSAGE value="Send and validate a PUT request: Google Maps Add Location API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Send and validate a PUT request: Google Maps Add Location API" />
   </component>
 </project>

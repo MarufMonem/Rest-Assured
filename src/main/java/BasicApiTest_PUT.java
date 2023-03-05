@@ -1,5 +1,6 @@
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
 
 public class BasicApiTest_PUT {
     public static void main(String[] args) {
@@ -32,7 +33,7 @@ public class BasicApiTest_PUT {
                         "}")
                 .when()
                 .post("/maps/api/place/add/json")
-                .then().log().all().assertThat().statusCode(200);
+                .then().log().all().assertThat().statusCode(200).body("scope",  equalTo("APP")).header("server", "Apache/2.4.41 (Ubuntu)");
 
 
     }
