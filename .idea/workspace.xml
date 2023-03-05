@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Added a new method to separate out the JsonPath object creation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ComplexJsonParseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/ComplexJsonTestPayload.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Parsing a complex JSON&#10;&#10;Passed all cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicJson/DynamicJsonPayload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_ExtractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicApiTest_ExtractResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_PUT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicApiTest_PUT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdateAndValidatePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdateAndValidatePlace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ResuableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ResuableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/BasicApiTestPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_ExtractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/BasicApiTest_ExtractResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_PUT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/BasicApiTest_PUT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicApiTest_UpdateAndValidatePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/BasicApiTest_UpdateAndValidatePlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ComplexJsonParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/ComplexJsonParseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ResuableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ResuableItems/ResuableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,31 @@
       <recent name="files" />
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DynamicJson" />
+      <option name="MAIN_CLASS_NAME" value="DynamicJson.DynamicJson" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DynamicJson.addBook" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677991445335</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Parsing a complex JSON&#10;&#10;Passed all cases">
+      <created>1677995526869</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677995526869</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +204,7 @@
     <MESSAGE value="Validate the updated address" />
     <MESSAGE value="Added testNG assertion to validate the address value" />
     <MESSAGE value="Added a new method to separate out the JsonPath object creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new method to separate out the JsonPath object creation" />
+    <MESSAGE value="Parsing a complex JSON&#10;&#10;Passed all cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parsing a complex JSON&#10;&#10;Passed all cases" />
   </component>
 </project>

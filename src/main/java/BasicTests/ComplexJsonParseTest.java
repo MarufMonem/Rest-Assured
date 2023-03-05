@@ -1,3 +1,6 @@
+package BasicTests;
+
+import ResuableItems.ResuableMethods;
 import files.ComplexJsonTestPayload;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;

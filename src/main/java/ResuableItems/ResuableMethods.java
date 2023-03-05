@@ -1,3 +1,5 @@
+package ResuableItems;
+
 import io.restassured.path.json.JsonPath;
 
 public class ResuableMethods {

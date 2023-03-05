@@ -1,3 +1,6 @@
+package BasicTests;
+
+import ResuableItems.ResuableMethods;
 import files.BasicApiTestPayload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
