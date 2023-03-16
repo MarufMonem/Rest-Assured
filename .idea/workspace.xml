@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Generated getter and setter for POJO test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/GetCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Response used.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/WebAutomation.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="All Pojo classes created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OAuth2_GoogleAPI/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OAuth2_GoogleAPI/OAuthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +51,13 @@
       <recent name="X:\Career\Learning\API\Rest-Assured\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Serialization_deserialization" />
       <recent name="BasicTests" />
       <recent name="files" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicApiTest_ReadJsonFromFile">
+  <component name="RunManager">
     <configuration name="BasicApiTest_ReadJsonFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicTests.BasicApiTest_ReadJsonFromFile" />
       <module name="Rest-Assured" />
@@ -272,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678765579256</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="All Pojo classes created">
+      <created>1678942019533</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678942019533</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,6 +309,7 @@
     <MESSAGE value="Automated the OAuth2.0 google API process" />
     <MESSAGE value="POJO classes setup" />
     <MESSAGE value="Generated getter and setter for POJO test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated getter and setter for POJO test" />
+    <MESSAGE value="All Pojo classes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Pojo classes created" />
   </component>
 </project>

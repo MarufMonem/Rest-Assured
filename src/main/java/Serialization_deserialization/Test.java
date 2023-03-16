@@ -1,16 +1,17 @@
-package OAuth2_GoogleAPI;
+package Serialization_deserialization;
+
+import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+import static io.restassured.RestAssured.given;
 
-public class OAuthTest {
+public class Test {
     public static void main(String[] args) {
 
 //        Google doesnt support automation to login so we have manually do it then get the link and run it through rest assured
 
 
-        String urlForCode = "https://rahulshettyacademy.com/getCourse.php?code=4%XXXXX&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none";
+        String urlForCode = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AWtgzh791vcNEUbsLSjfdKdxIEETf42xH-XKNLSGFNte6cXltwKIqhyMalv2dCa0XrZj5Q&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=2&prompt=none";
 
         String array1[] = urlForCode.split("code=");
         String array2[] = array1[1].split("&scope");
@@ -35,13 +36,19 @@ public class OAuthTest {
 
 
 //        Using the access token to get the content
-        String response = given()
-            .log().all()
-            . queryParam("access_token", accessTokenValue)
+        GetCourse gc = given()
+            .queryParam("access_token", accessTokenValue)
+            .expect().defaultParser(Parser.JSON)
         .when()
-            . get("https://rahulshettyacademy.com/getCourse.php").asString();
+            . get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
 
-        System.out.println(response);
+        System.out.println("-----------------------------");
+
+        System.out.println("LinkedIn: " + gc.getLinkedIn());
+        System.out.println("Instructor name: " + gc.getInstructor());
+        System.out.println("Expertise: " + gc.getExpertise());
+//        System.out.println("Expertise: " + gc.getCourses());
+
 
 
 
