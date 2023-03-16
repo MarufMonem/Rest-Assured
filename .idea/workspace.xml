@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Automated the OAuth2.0 google API process">
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Generated getter and setter for POJO test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/GetCourse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Response used.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/WebAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678682066656</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="POJO classes setup">
+      <created>1678765579256</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678765579256</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +304,8 @@
     <MESSAGE value="Delete the newly created book entry" />
     <MESSAGE value="Using static JSON files" />
     <MESSAGE value="Automated the OAuth2.0 google API process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automated the OAuth2.0 google API process" />
+    <MESSAGE value="POJO classes setup" />
+    <MESSAGE value="Generated getter and setter for POJO test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generated getter and setter for POJO test" />
   </component>
 </project>
