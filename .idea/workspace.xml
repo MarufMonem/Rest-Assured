@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Getter and setters created for add location API">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Serialization/AddPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Serialization/AddPlace.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="JSON body created">
       <change beforePath="$PROJECT_DIR$/src/main/java/Serialization/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Serialization/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicApiTest_ReadJsonFromFile">
+  <component name="RunManager">
     <configuration name="BasicApiTest_ReadJsonFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicTests.BasicApiTest_ReadJsonFromFile" />
       <module name="Rest-Assured" />
@@ -296,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679810836779</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="JSON body created">
+      <created>1679811684389</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679811684389</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +340,7 @@
     <MESSAGE value="iterating through courses" />
     <MESSAGE value="Updated package name" />
     <MESSAGE value="Getter and setters created for add location API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getter and setters created for add location API" />
+    <MESSAGE value="JSON body created" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSON body created" />
   </component>
 </project>

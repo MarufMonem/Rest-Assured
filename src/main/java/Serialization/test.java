@@ -32,12 +32,15 @@ public class test {
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
 
-        Response res = given()
+        String res = given()
                 .queryParam("key", "qaclick123")
+                .body(ap)
         .when()
                 .post("/maps/api/place/add/json")
         .then()
-                .assertThat().statusCode(200).extract().response();
+                .assertThat().statusCode(200).extract().response().asString();
+
+        System.out.println(res);
 
 
 
