@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Updated package name">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization/AddPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization/Sample JSON.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization/test.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Getter and setters created for add location API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Serialization/AddPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Serialization/AddPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Serialization/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Serialization/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679809858118</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Getter and setters created for add location API">
+      <created>1679810836779</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679810836779</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,6 +334,7 @@
     <MESSAGE value="Retrieving and showing results from the JSON response." />
     <MESSAGE value="iterating through courses" />
     <MESSAGE value="Updated package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated package name" />
+    <MESSAGE value="Getter and setters created for add location API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getter and setters created for add location API" />
   </component>
 </project>

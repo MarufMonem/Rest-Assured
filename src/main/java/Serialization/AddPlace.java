@@ -4,10 +4,10 @@ import java.util.List;
 
 public class AddPlace {
     private Location location;
-    private String accuracy;
+    private int accuracy;
     private String name;
     private String phone_number;
-    private int address;
+    private String address;
     private List<String> types;
     private String website;
     private String language;
@@ -20,11 +20,11 @@ public class AddPlace {
         this.location = location;
     }
 
-    public String getAccuracy() {
+    public int getAccuracy() {
         return accuracy;
     }
 
-    public void setAccuracy(String accuracy) {
+    public void setAccuracy(int accuracy) {
         this.accuracy = accuracy;
     }
 
@@ -44,11 +44,11 @@ public class AddPlace {
         this.phone_number = phone_number;
     }
 
-    public int getAddress() {
+    public String getAddress() {
         return address;
     }
 
-    public void setAddress(int address) {
+    public void setAddress(String address) {
         this.address = address;
     }
 
