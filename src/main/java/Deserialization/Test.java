@@ -1,7 +1,9 @@
-package Serialization_deserialization;
+package Deserialization;
 
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
+
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
@@ -11,7 +13,7 @@ public class Test {
 //        Google doesnt support automation to login so we have manually do it then get the link and run it through rest assured
 
 
-        String urlForCode = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AWtgzh791vcNEUbsLSjfdKdxIEETf42xH-XKNLSGFNte6cXltwKIqhyMalv2dCa0XrZj5Q&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=2&prompt=none";
+        String urlForCode = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AWtgzh7IvY_5xA_nYp-rhhaxB8GMaM2OPcamsz4JOTUOsViuCJ9o0CcEirNOFHXBfKJywA&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none";
 
         String array1[] = urlForCode.split("code=");
         String array2[] = array1[1].split("&scope");
@@ -48,6 +50,26 @@ public class Test {
         System.out.println("Instructor name: " + gc.getInstructor());
         System.out.println("Expertise: " + gc.getExpertise());
 //        System.out.println("Expertise: " + gc.getCourses());
+
+//        Print courses in API
+//       String apiCourseTitle =  gc.getCourses().getApi().get(1).getCourseTitle();
+
+        List<Api> apiOject = gc.getCourses().getApi();
+        for (int i=0; i <apiOject.size(); i++){
+            String courseTitle = apiOject.get(i).getCourseTitle();
+            if(courseTitle.contains("Soap")){
+
+                System.out.println(courseTitle + " - " + apiOject.get(i).getPrice());
+            }
+        }
+
+
+        List<WebAutomation> webAutomationOject = gc.getCourses().getWebAutomation();
+        for (int i=0; i <apiOject.size(); i++){
+            String courseTitle = apiOject.get(i).getCourseTitle();
+                System.out.println(courseTitle + " - " + apiOject.get(i).getPrice());
+        }
+
 
 
 

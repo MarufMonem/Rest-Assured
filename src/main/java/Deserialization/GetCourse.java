@@ -1,4 +1,4 @@
-package Serialization_deserialization;
+package Deserialization;
 
 public class GetCourse {
 

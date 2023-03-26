@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="All Pojo classes created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Test.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="iterating through courses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OAuth2_GoogleAPI/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OAuth2_GoogleAPI/OAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Serialization_deserialization/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BasicApiTest_ReadJsonFromFile">
     <configuration name="BasicApiTest_ReadJsonFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicTests.BasicApiTest_ReadJsonFromFile" />
       <module name="Rest-Assured" />
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678942019533</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Retrieving and showing results from the JSON response.">
+      <created>1678943459425</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678943459425</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,6 +316,8 @@
     <MESSAGE value="POJO classes setup" />
     <MESSAGE value="Generated getter and setter for POJO test" />
     <MESSAGE value="All Pojo classes created" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Pojo classes created" />
+    <MESSAGE value="Retrieving and showing results from the JSON response." />
+    <MESSAGE value="iterating through courses" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterating through courses" />
   </component>
 </project>

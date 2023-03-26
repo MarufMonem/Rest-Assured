@@ -1,6 +1,6 @@
-package Serialization_deserialization;
+package Deserialization;
 
-public class Mobile {
+public class WebAutomation {
     private String courseTitle;
     private String price;
 

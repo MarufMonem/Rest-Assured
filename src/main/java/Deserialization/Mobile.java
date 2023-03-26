@@ -1,6 +1,6 @@
-package Serialization_deserialization;
+package Deserialization;
 
-public class Api {
+public class Mobile {
     private String courseTitle;
     private String price;
 

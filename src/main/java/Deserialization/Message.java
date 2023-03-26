@@ -1,4 +1,4 @@
-package Serialization_deserialization;
+package Deserialization;
 //This is a POJO class example
 public class Message {
     private String message;
