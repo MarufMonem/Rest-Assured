@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Passing the request body">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spec_builder/specBuilderTest.java" afterDir="false" />
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Spec builder code re-design">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/ECommerceAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/loginReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/loginResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -309,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679812296027</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Spec builder code re-design">
+      <created>1679818592198</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679818592198</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +333,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added rest assured dependencies" />
     <MESSAGE value="Added TestNG and hamcrest dependencies" />
     <MESSAGE value="Send and validate a PUT request: Google Maps Add Location API" />
     <MESSAGE value="Added body (scope) and header (server) validation" />
@@ -349,6 +357,7 @@
     <MESSAGE value="Getter and setters created for add location API" />
     <MESSAGE value="JSON body created" />
     <MESSAGE value="Passing the request body" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing the request body" />
+    <MESSAGE value="Spec builder code re-design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spec builder code re-design" />
   </component>
 </project>
