@@ -26,7 +26,7 @@ public class ECommerceAPITest {
         lr.setUserPassword("Test123456");
 
 //        Making the request
-        RequestSpecification reqlogin = given().log().all().spec(baseLoginReq).body(lr);
+        RequestSpecification reqlogin = given().relaxedHTTPSValidation().log().all().spec(baseLoginReq).body(lr);
         loginResponse loginResponse = reqlogin.when().log().all().post("/api/ecom/auth/login").then().extract().response().as(loginResponse.class);
 
         System.out.println("The token is: " + loginResponse.getToken());
