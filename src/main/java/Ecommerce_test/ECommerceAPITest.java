@@ -6,6 +6,9 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
@@ -48,6 +51,35 @@ public class ECommerceAPITest {
         Assert.assertEquals("Product Added Successfully", newlyCreatedProduct.getMessage());
 
         System.out.println("The product ID is: " + newlyCreatedProduct.getProductId());
+
+//        Creating order
+        RequestSpecification orderBaseReq = new RequestSpecBuilder()
+                .setBaseUri("https://rahulshettyacademy.com")
+                .setContentType(ContentType.JSON)
+                .addHeader("Authorization", loginResponse.getToken()).build();
+
+//        Order details creation
+        OrderDetails od = new OrderDetails();
+        od.setCountry("India");
+        od.setProductOrderedId(newlyCreatedProduct.getProductId());
+
+        List<OrderDetails> orderDetailsList = new ArrayList<OrderDetails>();
+        orderDetailsList.add(od);
+
+        Order fullOrder = new Order();
+        fullOrder.setOrders(orderDetailsList);
+
+        RequestSpecification orderReq = given().spec(orderBaseReq).body(fullOrder);
+        OrderResponse or = orderReq.when().post("/api/ecom/order/create-order").then().extract().as(OrderResponse.class);
+
+        System.out.println("Order ID: " + or.getProductOrderId()[0]);
+        System.out.println(or.getMessage());
+        Assert.assertEquals("Order Placed Successfully", or.getMessage());
+
+//        Deleting the product created
+        RequestSpecification deleteBaseReq = new RequestSpecBuilder()
+                .setBaseUri()
+
 
 
     }

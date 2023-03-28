@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Captured the token value">
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Added and verified newly created product">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/OrderResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Ecommerce_test/ECommerceAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/ECommerceAPITest.java" afterDir="false" />
     </list>
@@ -323,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679971249388</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added and verified newly created product">
+      <created>1679972346408</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679972346408</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Send and validate a PUT request: Google Maps Add Location API" />
     <MESSAGE value="Added body (scope) and header (server) validation" />
     <MESSAGE value="Separated out the payload in its own static class" />
     <MESSAGE value="Extracted the place ID" />
@@ -363,6 +372,7 @@
     <MESSAGE value="Passing the request body" />
     <MESSAGE value="Spec builder code re-design" />
     <MESSAGE value="Captured the token value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Captured the token value" />
+    <MESSAGE value="Added and verified newly created product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and verified newly created product" />
   </component>
 </project>
