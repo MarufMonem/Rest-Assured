@@ -2,6 +2,7 @@ package Ecommerce_test;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 
@@ -41,7 +42,7 @@ public class ECommerceAPITest {
                 .param("productAddedBy", loginResponse.getUserId())
                 .param("productCategory", "Tech")
                 .param("productSubCategory", "Portable")
-                .param("productPrice", "6900")
+                .param("productPrice", "6969")
                 .param("productDescription", "HP")
                 .param("productFor", "Students")
                 .multiPart("productImage", new File("C:\\Users\\Anik\\Desktop\\camera.jpg"));
@@ -78,8 +79,19 @@ public class ECommerceAPITest {
 
 //        Deleting the product created
         RequestSpecification deleteBaseReq = new RequestSpecBuilder()
-                .setBaseUri()
+                .setBaseUri("https://rahulshettyacademy.com")
+                .addHeader("Authorization", loginResponse.getToken()).build();
 
+        RequestSpecification deleteReq =  given().spec(deleteBaseReq).pathParam("productID",newlyCreatedProduct.getProductId() );
+
+        String deleteResponse = deleteReq.when().delete("/api/ecom/product/delete-product/{productID}").then().log().all().extract().response().asString();
+
+        JsonPath js = new JsonPath(deleteResponse);
+        String deleteMessage = js.get("message");
+        System.out.println(deleteMessage);
+        Assert.assertEquals("Product Deleted Successfully", deleteMessage);
+
+        System.out.println("-------------DONE--------------");
 
 
     }
