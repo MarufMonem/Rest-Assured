@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="Order created and verified">
+    <list default="true" id="e66446a6-39e2-4181-bf13-062ae76dee27" name="Changes" comment="added relaxed https validation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LibraryAPI/AddBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ecommerce_test/ECommerceAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ecommerce_test/ECommerceAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicTests/ComplexJsonParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTests/ComplexJsonParseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="specBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spec_builder.specBuilderTest" />
+      <module name="Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Spec_builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicJson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Rest-Assured" />
       <extension name="coverage">
@@ -125,9 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicApiTest_ReadJsonFromFile" />
         <item itemvalue="TestNG.DynamicJson.deleteBook" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
+        <item itemvalue="Application.specBuilderTest" />
+        <item itemvalue="Application.BasicApiTest_ReadJsonFromFile" />
         <item itemvalue="TestNG.DynamicJson" />
       </list>
     </recent_temporary>
@@ -337,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679974436373</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Deleted product">
+      <created>1679975277366</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679975277366</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added relaxed https validation">
+      <created>1679975478975</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679975478975</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,8 +381,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Separated out the payload in its own static class" />
-    <MESSAGE value="Extracted the place ID" />
     <MESSAGE value="Updated the address value of the newly created place" />
     <MESSAGE value="Validate the updated address" />
     <MESSAGE value="Added testNG assertion to validate the address value" />
@@ -377,6 +404,8 @@
     <MESSAGE value="Captured the token value" />
     <MESSAGE value="Added and verified newly created product" />
     <MESSAGE value="Order created and verified" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order created and verified" />
+    <MESSAGE value="Deleted product" />
+    <MESSAGE value="added relaxed https validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added relaxed https validation" />
   </component>
 </project>
